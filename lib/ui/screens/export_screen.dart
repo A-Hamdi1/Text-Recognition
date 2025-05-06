@@ -10,7 +10,7 @@ import '../components/app_button.dart';
 import '../components/app_header.dart';
 
 class ExportScreen extends StatefulWidget {
-  const ExportScreen({Key? key}) : super(key: key);
+  const ExportScreen({super.key});
 
   @override
   _ExportScreenState createState() => _ExportScreenState();

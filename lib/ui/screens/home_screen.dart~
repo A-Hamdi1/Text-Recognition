@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Column(
         children: <Widget>[
-          AppHeader(showSearchBar: true),
+          AppHeader(showBar: true),
           const Spacer(),
           const Text(
             AppStrings.homeTitle,
@@ -27,13 +27,12 @@ class _HomeScreenState extends State<HomeScreen> {
               fontWeight: FontWeight.bold,
             ),
           ),
-          const Text(
-            AppStrings.homeSubtitle,
-            textAlign: TextAlign.center,
+          SizedBox(
+            height: 10,
           ),
           const Spacer(flex: 2),
           Image.asset(
-            "assets/images/splash.png",
+            "assets/images/logo.png",
             height: 265,
             width: 235,
           ),

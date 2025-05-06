@@ -7,10 +7,10 @@ class AppHeader extends StatelessWidget {
   final bool showBar;
 
   const AppHeader({
-    super.key,
+    Key? key,
     this.onBackPressed,
     this.showBar = true,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

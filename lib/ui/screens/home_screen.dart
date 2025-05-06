@@ -6,7 +6,7 @@ import '../components/app_button.dart';
 import '../components/app_header.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -27,13 +27,12 @@ class _HomeScreenState extends State<HomeScreen> {
               fontWeight: FontWeight.bold,
             ),
           ),
-          const Text(
-            AppStrings.homeSubtitle,
-            textAlign: TextAlign.center,
+          SizedBox(
+            height: 10,
           ),
           const Spacer(flex: 2),
           Image.asset(
-            "assets/images/splash.png",
+            "assets/images/logo.png",
             height: 265,
             width: 235,
           ),

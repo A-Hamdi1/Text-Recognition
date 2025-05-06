@@ -22,8 +22,7 @@ class AppStrings {
   static const String exportText = "Export Text";
 
   // Export screen
-  static const String exportInstruction =
-      "Your extracted text is ready to be exported.";
+  static const String exportInstruction = "Your text is ready to be exported.";
   static const String saveAsTextFile = "Save as Text File";
 
   // Messages
